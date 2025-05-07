@@ -13,17 +13,16 @@
 - [scripts](#scripts)
 - [useful-ports](#useful-ports)
 - [resources](#resources)
-- [author](#author)
 
 ---
 
-## 📝 About
+## About
 
 This repository contains Bash scripts and resources for learning the basics of computer networking, focusing on TCP/UDP ports, sockets, and network utilities. It is part of the Holberton School curriculum.
 
 ---
 
-## ✨ Features
+## Features
 - Display listening TCP/UDP ports and associated programs
 - Check if a host is on the network
 - Learn about common network ports
@@ -31,7 +30,7 @@ This repository contains Bash scripts and resources for learning the basics of c
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository:**
    ```bash
@@ -50,7 +49,7 @@ This repository contains Bash scripts and resources for learning the basics of c
 
 ---
 
-## 🖥️ Scripts
+## Scripts
 
 Here is the list of scripts in this folder, each with a direct link and a short description:
 
@@ -63,14 +62,14 @@ Here is the list of scripts in this folder, each with a direct link and a short 
 
 ---
 
-## 🔑 Useful Ports
+## Useful Ports
 - **22**: SSH
 - **80**: HTTP
 - **443**: HTTPS
 
 ---
 
-## 📚 Resources
+## Resources
 - [IANA Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
 - [Linux netstat command](https://linux.die.net/man/8/netstat)
 - [Holberton School](https://www.holbertonschool.com/)
