@@ -1,28 +1,28 @@
-# Network Basics - Part 1
+# Network Basics - Part 1 🌐
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Networking_icon_-_noun_project_8536.svg/512px-Networking_icon_-_noun_project_8536.svg.png" alt="Network Icon" width="150" height="150">
+  <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/globe.svg" alt="Network Icon" width="150" height="150">
 </p>
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Description](#description)
-- [Files](#files)
-  - [0-change_your_home_IP](#0-change_your_home_ip)
-  - [1-show_attached_IPs](#1-show_attached_ips)
-  - [2-port_listening_on_localhost](#2-port_listening_on_localhost)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Author](#author)
+- [📝 Description](#description)
+- [📁 Files](#files)
+  - [🔄 0-change_your_home_IP](#0-change_your_home_ip)
+  - [📋 1-show_attached_IPs](#1-show_attached_ips)
+  - [👂 2-port_listening_on_localhost](#2-port_listening_on_localhost)
+- [⚙️ Prerequisites](#prerequisites)
+- [🔧 Installation](#installation)
+- [▶️ Usage](#usage)
+- [👤 Author](#author)
 
-## Description
+## 📝 Description
 
 This project contains a series of Bash scripts to manipulate and analyze network parameters on a Linux machine. It is part of the Holberton School curriculum to understand networking basics.
 
-## Files
+## 📁 Files
 
-### 0-change_your_home_IP
+### 🔄 0-change_your_home_IP
 
 Bash script that configures an Ubuntu server with the following requirements:
 - localhost resolves to 127.0.0.2
@@ -32,7 +32,7 @@ Bash script that configures an Ubuntu server with the following requirements:
 sudo ./0-change_your_home_IP
 ```
 
-### 1-show_attached_IPs
+### 📋 1-show_attached_IPs
 
 Bash script that displays all active IPv4 IPs on the machine.
 
@@ -40,7 +40,7 @@ Bash script that displays all active IPv4 IPs on the machine.
 ./1-show_attached_IPs
 ```
 
-### 2-port_listening_on_localhost
+### 👂 2-port_listening_on_localhost
 
 Bash script that listens on port 98 on localhost.
 
@@ -48,13 +48,13 @@ Bash script that listens on port 98 on localhost.
 sudo ./2-port_listening_on_localhost
 ```
 
-## Prerequisites
+## ⚙️ Prerequisites
 
 - Ubuntu Linux
 - Root access (for some scripts)
 - Standard Unix commands: ip, sed, netcat, etc.
 
-## Installation
+## 🔧 Installation
 
 Clone this repository and make the scripts executable:
 
@@ -64,7 +64,7 @@ cd holbertonschool-network/basics_1
 chmod +x 0-change_your_home_IP 1-show_attached_IPs 2-port_listening_on_localhost
 ```
 
-## Usage
+## ▶️ Usage
 
 Each script can be run individually. Some scripts require administrative privileges (sudo).
 
@@ -83,3 +83,7 @@ sudo ./2-port_listening_on_localhost
 # Terminal 2
 telnet localhost 98
 ```
+
+## 👤 Author
+
+[Your Name](https://github.com/yourusername)
