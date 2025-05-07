@@ -1,1 +1,1 @@
-netstat -ltnp
+netstat -tulnp | grep LISTEN
