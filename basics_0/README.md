@@ -1,1 +1,82 @@
 # holbertonschool-network
+
+<p align="center">
+  <img src="https://img.icons8.com/color/96/000000/network-card.png" alt="Network Icon" width="96" height="96"/>
+</p>
+
+---
+
+## 📚 Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Scripts](#scripts)
+- [Useful Ports](#useful-ports)
+- [Resources](#resources)
+- [Author](#author)
+
+---
+
+## 📝 About
+
+This repository contains Bash scripts and resources for learning the basics of computer networking, focusing on TCP/UDP ports, sockets, and network utilities. It is part of the Holberton School curriculum.
+
+---
+
+## ✨ Features
+- Display listening TCP/UDP ports and associated programs
+- Check if a host is on the network
+- Learn about common network ports
+- Practice with real-world networking commands
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/holbertonschool-network.git
+   cd holbertonschool-network/basics_0
+   ```
+2. **Make scripts executable:**
+   ```bash
+   chmod +x 4-TCP_and_UDP_ports 5-is_the_host_on_the_network
+   ```
+3. **Run a script:**
+   ```bash
+   sudo ./4-TCP_and_UDP_ports
+   ./5-is_the_host_on_the_network 8.8.8.8
+   ```
+
+---
+
+## 🖥️ Scripts
+
+- **4-TCP_and_UDP_ports**
+  - Displays all listening TCP and UDP ports with the PID and program name.
+  - Usage: `sudo ./4-TCP_and_UDP_ports`
+
+- **5-is_the_host_on_the_network**
+  - Checks if a host is reachable via ping (5 packets).
+  - Usage: `./5-is_the_host_on_the_network <IP_ADDRESS>`
+
+---
+
+## 🔑 Useful Ports
+- **22**: SSH
+- **80**: HTTP
+- **443**: HTTPS
+
+---
+
+## 📚 Resources
+- [IANA Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+- [Linux netstat command](https://linux.die.net/man/8/netstat)
+- [Holberton School](https://www.holbertonschool.com/)
+
+---
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/holbertonschool-networking-blue" alt="Holberton Networking"/>
+</p>
