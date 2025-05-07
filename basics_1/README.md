@@ -14,7 +14,6 @@
 - [⚙️ Prerequisites](#️-prerequisites)
 - [🔧 Installation](#-installation)
 - [▶️ Usage](#️-usage)
-- [👤 Author](#-author)
 
 ## 📝 Description
 
