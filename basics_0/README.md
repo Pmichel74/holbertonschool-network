@@ -52,13 +52,14 @@ This repository contains Bash scripts and resources for learning the basics of c
 
 ## 🖥️ Scripts
 
-- **4-TCP_and_UDP_ports**
-  - Displays all listening TCP and UDP ports with the PID and program name.
-  - Usage: `sudo ./4-TCP_and_UDP_ports`
+Here is the list of scripts in this folder, each with a direct link and a short description:
 
-- **5-is_the_host_on_the_network**
-  - Checks if a host is reachable via ping (5 packets).
-  - Usage: `./5-is_the_host_on_the_network <IP_ADDRESS>`
+- [0-OSI_model](./0-OSI_model): Displays the number corresponding to the OSI (Open Systems Interconnection) model.
+- [1-types_of_network](./1-types_of_network): Displays the type of network (LAN, WAN, etc.) based on the input.
+- [2-MAC_and_IP_address](./2-MAC_and_IP_address): Shows the difference between a MAC address and an IP address.
+- [3-UDP_and_TCP](./3-UDP_and_TCP): Shows the difference between UDP and TCP.
+- [4-TCP_and_UDP_ports](./4-TCP_and_UDP_ports): Displays all listening TCP/UDP ports with the PID and associated program name.
+- [5-is_the_host_on_the_network](./5-is_the_host_on_the_network): Checks if a host is reachable via ping (5 packets).
 
 ---
 
