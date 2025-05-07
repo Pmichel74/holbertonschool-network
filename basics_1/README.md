@@ -6,15 +6,15 @@
 
 ## 📑 Table of Contents
 
-- [📝 Description](#description)
-- [📁 Files](#files)
-  - [🔄 0-change_your_home_IP](#0-change_your_home_ip)
-  - [📋 1-show_attached_IPs](#1-show_attached_ips)
-  - [👂 2-port_listening_on_localhost](#2-port_listening_on_localhost)
-- [⚙️ Prerequisites](#prerequisites)
-- [🔧 Installation](#installation)
-- [▶️ Usage](#usage)
-- [👤 Author](#author)
+- [📝 Description](#-description)
+- [📁 Files](#-files)
+  - [🔄 0-change_your_home_IP](#-0-change_your_home_ip)
+  - [📋 1-show_attached_IPs](#-1-show_attached_ips)
+  - [👂 2-port_listening_on_localhost](#-2-port_listening_on_localhost)
+- [⚙️ Prerequisites](#️-prerequisites)
+- [🔧 Installation](#-installation)
+- [▶️ Usage](#️-usage)
+- [👤 Author](#-author)
 
 ## 📝 Description
 
@@ -83,3 +83,7 @@ sudo ./2-port_listening_on_localhost
 # Terminal 2
 telnet localhost 98
 ```
+
+## 👤 Author
+
+[Your Name](https://github.com/yourusername)
