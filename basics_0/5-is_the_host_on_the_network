@@ -5,4 +5,5 @@ if [ "$#" -ne 1 ]; then
   exit 1
 fi
 
-ping -c 5 "$1"
+# Ping the target 5 times, ignore ping exit status
+ping -c 5 "$1" || true
