@@ -1,1 +1,4 @@
+#!/bin/bash
+
+# Display listening ports with PID and program name
 netstat -tulnp | grep LISTEN
