@@ -4,6 +4,9 @@
 # Backup the current /etc/hosts file
 sudo cp /etc/hosts /etc/hosts.bak
 
+# Remove any existing localhost entry to avoid duplicates
+sudo sed -i '/\slocalhost$/d' /etc/hosts
+
 # Update the /etc/hosts file with the new configurations
 echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts > /dev/null
 echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts > /dev/null
