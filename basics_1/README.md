@@ -83,7 +83,3 @@ sudo ./2-port_listening_on_localhost
 # Terminal 2
 telnet localhost 98
 ```
-
-## 👤 Author
-
-[Your Name](https://github.com/yourusername)
