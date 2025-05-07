@@ -7,13 +7,13 @@
 ---
 
 ## 📚 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Scripts](#scripts)
-- [Useful Ports](#useful-ports)
-- [Resources](#resources)
-- [Author](#author)
+- [about](#about)
+- [features](#features)
+- [getting-started](#getting-started)
+- [scripts](#scripts)
+- [useful-ports](#useful-ports)
+- [resources](#resources)
+- [author](#author)
 
 ---
 
